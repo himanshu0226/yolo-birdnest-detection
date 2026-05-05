@@ -1,0 +1,9 @@
+# dataset.yaml
+
+path: .                 # Relative path to the current directory
+train: ./sample_data/data/images/train/
+val: ./sample_data/data/images/train/
+
+# Classes
+nc: 1
+names: [birdnest]
