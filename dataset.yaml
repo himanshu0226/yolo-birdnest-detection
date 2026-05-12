@@ -1,9 +1,26 @@
+# # dataset.yaml
+
+# path: .                 # Relative path to the current directory
+# train: ./sample_data/data/images/train/
+# val: ./sample_data/data/images/train/
+
+# # Classes
+# nc: 1
+# names: [birdnest]
+
+
 # dataset.yaml
 
-path: .                 # Relative path to the current directory
-train: ./sample_data/data/images/train/
-val: ./sample_data/data/images/train/
+# Root dataset directory
+path: ./sample_data/data
 
-# Classes
+# Dataset splits
+train: images/train
+val: images/val
+
+# Number of classes
 nc: 1
-names: [birdnest]
+
+# Class names
+names:
+  - birdnest
