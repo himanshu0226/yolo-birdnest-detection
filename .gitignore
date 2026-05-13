@@ -1,2 +1,50 @@
-*_old_* 
-"*_old*" 
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Dataset folders
+# =========================
+birdnest_data/
+data/
+test/
+test_data/
+full_dataset_backup/
+
+# =========================
+# YOLO model weights
+# =========================
+*.pt
+
+# =========================
+# Old / backup scripts
+# =========================
+corrupt_data_old.py
+yolov8_birdnest_detection_old.py
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
